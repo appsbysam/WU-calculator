@@ -1,10 +1,13 @@
 {
+  "id":"/WU-calculator/",
   "name":"WU Calculator",
   "short_name":"WU Calc",
-  "description":"AUD to USD reverse calculator for Lebanon recipient targets.",
-  "start_url":"./",
-  "scope":"./",
+  "description":"AUD to USD money transfer calculator for Lebanon.",
+  "start_url":"/WU-calculator/",
+  "scope":"/WU-calculator/",
   "display":"standalone",
+  "display_override":["standalone","minimal-ui"],
+  "orientation":"portrait-primary",
   "background_color":"#080808",
   "theme_color":"#111111",
   "icons":[
